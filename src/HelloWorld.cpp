@@ -1,13 +1,14 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
 int main()
 {
-    string s;
-    cin>>s;
-    cout<<"Hello World";
-    cout<<"The given parameter was " + s;
+    string str;
+    getline(cin, str);
+    cout << "Hello World!\n";
+    cout << "The given parameter was " << str;
 
     return 0;
 }
